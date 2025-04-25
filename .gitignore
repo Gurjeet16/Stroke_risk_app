@@ -1,0 +1,7 @@
+venv/
+*.pyc
+__pycache__/
+*.log
+*.pkl.backup
+*.py.backup
+.DS_Store
