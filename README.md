@@ -1,11 +1,11 @@
-# 🩺 Stroke Risk Prediction Web App
+# Stroke Risk Prediction Web App
 
 A **Flask-based web application** that predicts the risk of stroke based on health parameters.  
 The model is trained on an Indian population dataset and provides **personalized health recommendations** along with the risk score.
 
 ---
 
-## 📖 Table of Contents
+## Table of Contents
 - [Overview](#overview)
 - [Features](#features)
 - [Dataset](#dataset)
@@ -20,13 +20,13 @@ The model is trained on an Indian population dataset and provides **personalized
 
 ---
 
-## 📌 Overview
+## Overview
 This project predicts the probability of an individual having a **stroke** using demographic and health-related features.  
 It uses a **pre-trained machine learning model** stored in `rmodel6.pkl` with a **custom sigmoid calibration** to convert raw model probabilities into a meaningful risk percentage.
 
 ---
 
-## ✨ Features
+## Features
 - Web-based **interactive form** to input health details.
 - **Automatic feature engineering**:
   - Calculates `Cardiac_Stress_Score` from hypertension, heart disease, and stress levels.
@@ -43,7 +43,7 @@ It uses a **pre-trained machine learning model** stored in `rmodel6.pkl` with a 
 
 ---
 
-## 📊 Dataset
+## Dataset
 - **Name:** `Stroke_Prediction_Indians.csv`
 - **Source:** Indian population health dataset.
 - **Target:** Stroke occurrence.
@@ -59,7 +59,7 @@ It uses a **pre-trained machine learning model** stored in `rmodel6.pkl` with a 
 
 ---
 
-## 🧠 Model Details
+## Model Details
 - **Algorithm:** Scikit-learn classifier (saved as `rmodel6.pkl`)
 - **Scaler:** StandardScaler (`scaler6.pkl`)
 - **Encoders:** LabelEncoders for categorical features (`label_encoders6.pkl`)
@@ -67,7 +67,7 @@ It uses a **pre-trained machine learning model** stored in `rmodel6.pkl` with a 
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 - **Backend:** Python 3, Flask
 - **Machine Learning:** Scikit-learn, NumPy, Pandas
 - **Frontend:** HTML (Jinja2 templates), Bootstrap (optional)
@@ -75,7 +75,7 @@ It uses a **pre-trained machine learning model** stored in `rmodel6.pkl` with a 
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 ```
 .
 ├── app6.py                     # Flask application
@@ -92,29 +92,29 @@ It uses a **pre-trained machine learning model** stored in `rmodel6.pkl` with a 
 
 ---
 
-## ⚙️ Installation
+##  Installation
 
-### 1️⃣ Clone the repository
+### 1 Clone the repository
 ```bash
 git clone https://github.com/<USERNAME>/<REPO>.git
 cd <REPO>
 ```
 
-### 2️⃣ Create and activate a virtual environment
+### 2 Create and activate a virtual environment
 ```bash
 python -m venv .venv
 .venv\Scripts\activate   # Windows
 # source .venv/bin/activate  # Mac/Linux
 ```
 
-### 3️⃣ Install dependencies
+### 3️ Install dependencies
 ```bash
 pip install -r requirements.txt
 ```
 
 ---
 
-## ▶️ Usage
+## Usage
 
 ### Run the Flask app:
 ```bash
@@ -126,7 +126,7 @@ python app6.py
 
 ---
 
-## 🔄 Example Prediction Flow
+## Example Prediction Flow
 1. Open the web app.
 2. Fill in the health details:
    - Age: `45`
@@ -145,5 +145,5 @@ python app6.py
 
 ---
 
-## 📜 License
+## License
 This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
