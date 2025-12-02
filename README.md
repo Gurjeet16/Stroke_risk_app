@@ -144,6 +144,3 @@ python app6.py
    - **Suggestions:** Personalized health tips.
 
 ---
-
-## License
-This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
